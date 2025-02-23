@@ -10,7 +10,7 @@ const OrderPlaced = () => {
   useEffect(() => {
     setTimeout(() => {
       router.push("/my-orders");
-    }, 5100);
+    }, 6000);
   }, []);
 
   return (
